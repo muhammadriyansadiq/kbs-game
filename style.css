@@ -190,13 +190,13 @@ font-size: 40px;
 @media(min-width:1024px){
 .heading{
     font-size: 55px;
-    width: 89%;
+    width: 88%;
     
 }
 .time{
-    height: 200px;
-    width: 200px;
-    left: 440px;
+    height: 170px;
+    width: 170px;
+    left: 490px;
     top: 70px;
 }
 .pricelist p{
