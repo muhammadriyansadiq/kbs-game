@@ -1,0 +1,226 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    /* background-image:url("https://image.lexica.art/full_webp/7d98353f-fef0-490a-886e-9e8c91b875bd");
+    background-repeat: no-repeat;
+    object-fit: cover; */
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+.containerr{
+    height:570px;
+    width: 100%;
+    position: relative;
+}
+
+.containerr img{
+    height: 100%;
+    width: 100%;
+}
+
+.pricelist{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    opacity: 0.7;
+    background-color: rgb(246, 142, 6);
+    text-align: center;
+    color: rgb(26, 20, 4);
+}
+.pricelist p{
+    font-size: 19px;
+    font-weight: bolder;
+    /* display: inline-block; */
+}
+.pricelist span{
+    display: inline-block;
+}
+.box{
+    position: absolute;
+    bottom: 0;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.buttons{
+    margin-top:42px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.buttons button{
+    padding: 16px;
+    border-radius: 13px;
+    border: none;
+    margin-top: 12px;
+width: 35%;
+}
+
+.questionheading{
+    text-align: center;
+    color: #00fff2;
+}
+
+.btn{
+    padding: 14px;
+    border-radius: 14px;
+    border: none;
+}
+.heading{
+    position: absolute;
+    width: 78%;
+    text-align: center;
+    color: rgb(20, 17, 2);
+    background-color: rgb(216, 151, 12);
+    opacity: 0.7;
+}
+.time{
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    color: white;
+    background-color: rgb(198, 138, 10);
+    display: flex;
+    justify-content: center;
+    opacity: 0.6;
+    align-items: center;
+    font-size: 45px;
+    border-radius: 50%;
+    position: absolute;
+    top: 78px;
+    left: 22px;
+}
+
+.score{
+    display: none;
+    height:100%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://image.lexica.art/full_webp/ed3ca1b7-65e8-40c6-bbdd-478fb04646c4");
+object-fit: cover;
+background-position: center;
+background-repeat: no-repeat;
+font-size: 40px;
+
+}
+
+.highlight{
+    background-color: green;
+}
+
+@media(min-width:375px){
+    .heading{
+        width: 81%;
+    }
+    .time{
+        left: 50px;
+    }
+}
+
+@media(min-width:425px){
+.heading{
+    width: 83.4%;
+}
+.time{
+    left: 70px;
+}
+}
+
+@media(min-width:768px){
+.heading{
+    width: 86.5%;
+}
+.containerr{
+    height: 100vh;
+}
+.pricelist p{
+    font-size: 30px;
+}
+.pricelist span{
+    font-size: 30px;
+}
+.heading{
+    font-size: 45px;
+}
+.time{
+    height: 300px;
+    width: 300px;
+    top: 110px;
+    left: 185px;
+}
+.box{
+    width: 100%;
+}
+.questionheading{
+    font-size: 40px;
+}
+.buttons button{
+    font-size: 23px;
+    padding: 30px;
+    width: 40%;
+}
+.buttons{
+    margin-top: 0px;
+    /* padding: 14px; */
+}
+.btn{
+    padding: 20px;
+    font-size: 20px;
+}
+.containerr img{
+    height: 103%;
+}
+}
+
+@media(min-width:1024px){
+.heading{
+    font-size: 55px;
+    width: 90.7%;
+    
+}
+.time{
+    height: 300px;
+    width: 300px;
+    left: 640px;
+    top: 110px;
+}
+.pricelist p{
+    font-size: 45px;
+}
+.pricelist h1{
+    font-size: 45px;
+}
+.pricelist span{
+font-size: 45px;
+}
+.box{
+    height: 400px;
+}
+.questionheading{
+    font-size: 65px;
+}
+.btn{
+    padding: 27px;
+    font-size: 35px;
+    margin-top: 15px;
+}
+.buttons button{
+    font-size: 40px;
+}
+}
+
